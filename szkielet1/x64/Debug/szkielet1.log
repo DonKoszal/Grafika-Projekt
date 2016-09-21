@@ -1,0 +1,31 @@
+﻿Build started 2016-04-22 19:27:59.
+     1>Project "C:\Users\Administrator\Documents\iris\Dydaktyka\PP\Grafika komputerowa\2016\szkielety\pl_szkielet6_win\szkielet1\szkielet1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt cube.cpp lodepng.cpp main_file.cpp model.cpp shaderprogram.cpp teapot.cpp
+         teapot.cpp
+     1>c:\users\administrator\documents\iris\dydaktyka\pp\grafika komputerowa\2016\szkielety\pl_szkielet6_win\szkielet1\model.h(24): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+         shaderprogram.cpp
+     1>c:\users\administrator\documents\iris\dydaktyka\pp\grafika komputerowa\2016\szkielety\pl_szkielet6_win\szkielet1\shaderprogram.cpp(28): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+         model.cpp
+     1>c:\users\administrator\documents\iris\dydaktyka\pp\grafika komputerowa\2016\szkielety\pl_szkielet6_win\szkielet1\model.h(24): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+         main_file.cpp
+     1>c:\users\administrator\documents\iris\dydaktyka\pp\grafika komputerowa\2016\szkielety\pl_szkielet6_win\szkielet1\main_file.cpp(22): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         lodepng.cpp
+     1>c:\users\administrator\documents\iris\dydaktyka\pp\grafika komputerowa\2016\szkielety\pl_szkielet6_win\szkielet1\lodepng.cpp(762): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+     1>c:\users\administrator\documents\iris\dydaktyka\pp\grafika komputerowa\2016\szkielety\pl_szkielet6_win\szkielet1\lodepng.cpp(1422): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\administrator\documents\iris\dydaktyka\pp\grafika komputerowa\2016\szkielety\pl_szkielet6_win\szkielet1\lodepng.cpp(1426): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\administrator\documents\iris\dydaktyka\pp\grafika komputerowa\2016\szkielety\pl_szkielet6_win\szkielet1\lodepng.cpp(1498): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\administrator\documents\iris\dydaktyka\pp\grafika komputerowa\2016\szkielety\pl_szkielet6_win\szkielet1\lodepng.cpp(3455): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\administrator\documents\iris\dydaktyka\pp\grafika komputerowa\2016\szkielety\pl_szkielet6_win\szkielet1\lodepng.cpp(4262): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\administrator\documents\iris\dydaktyka\pp\grafika komputerowa\2016\szkielety\pl_szkielet6_win\szkielet1\lodepng.cpp(4310): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\administrator\documents\iris\dydaktyka\pp\grafika komputerowa\2016\szkielety\pl_szkielet6_win\szkielet1\lodepng.cpp(4390): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\administrator\documents\iris\dydaktyka\pp\grafika komputerowa\2016\szkielety\pl_szkielet6_win\szkielet1\lodepng.cpp(5329): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+         cube.cpp
+     1>c:\users\administrator\documents\iris\dydaktyka\pp\grafika komputerowa\2016\szkielety\pl_szkielet6_win\szkielet1\model.h(24): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\Administrator\Documents\iris\Dydaktyka\PP\Grafika komputerowa\2016\szkielety\pl_szkielet6_win\szkielet1\szkielet1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.97
